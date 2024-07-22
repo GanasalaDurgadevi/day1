@@ -1,0 +1,35 @@
+.review {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review-image {
+    width: 3cm;
+    height: 3cm;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 16px;
+}
+
+.review-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.review-name {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+.review-description {
+    font-size: 1em;
+    color: #666;
+}
